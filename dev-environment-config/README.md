@@ -5,11 +5,19 @@ Locomotive Engine & Wagon Configuration
 ##Set up Vagrant
 
 1) Install Virtual Box <https://www.virtualbox.org/>
+
 2) Install Vagrant <http://www.vagrantup.com/>
+
 3) Copy the `VagrantFile` from this repo to your desired working directory.
-4) In terminal, run `vagrant up`
+
+4) In terminal
+- `cd PATH\TO\VagrantFile`
+- `vagrant up`
+
 5) Wait.
-6) run `vagrant ssh`
+
+6) `vagrant ssh`
+
 7) Congrats. You're in a fresh VM.
 
 
