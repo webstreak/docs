@@ -1,8 +1,8 @@
-#conventions and reference docs
+#Reference Docs and Conventions
 
 Contents
-- git workflows 
-- dev environment config
+- [Git Workflow][https://github.com/webstreak/docs/tree/master/git-workflow]
+- [Dev Environment Setup][https://github.com/webstreak/docs/tree/master/dev-environment-config]
 
 To Do:
 - liquid conventions
