@@ -44,6 +44,7 @@ Locomotive Engine & Wagon Configuration
 `gem install locomotivecms_wagon`
 
 ## Install Engine Locally
+*This step is optional and not won't be required for MOST devs 
 (* Reference: http://doc.locomotivecms.com/get-started/install-engine-locally#linux*)
 
 1) Install MongoDB
@@ -110,7 +111,7 @@ Locomotive Engine & Wagon Configuration
       api_key: 7130e7e6ddbecbaf330a349385cce45be6961220
 
 
-### Create and Setup a Site
+## Create and Setup a Site
 1) Initialize a wagon
 - `wagon init site_name_here -t bootstrap3`
 - `cd site_name_here`
