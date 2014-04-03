@@ -22,7 +22,7 @@ Locomotive Engine & Wagon Configuration
 
 
 ##Install Wagon
-(*Reference: <http://doc.locomotivecms.com/get-started/install-wagon#linux>)
+(*Reference:* <http://doc.locomotivecms.com/get-started/install-wagon#linux>)
 
 1) Install imagemagick
 - `cd /usr/local/bin`
@@ -44,9 +44,9 @@ Locomotive Engine & Wagon Configuration
 `gem install locomotivecms_wagon`
 
 ## Install Engine Locally
-*This step is optional and not won't be required for MOST devs 
+*This step is optional and not won't be required for MOST devs* 
 
-(*Reference: <http://doc.locomotivecms.com/get-started/install-engine-locally#linux>)
+(*Reference:* <http://doc.locomotivecms.com/get-started/install-engine-locally#linux>)
 
 1) Install MongoDB
 
