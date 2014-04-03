@@ -1,13 +1,10 @@
-#webstreak conventions and reference docs
+#conventions and reference docs
 
-##git workflows
+Contents
+- git workflows 
+- dev environment config
 
-##dev environments
- - wagon
- - engine
-
-TODO:
-
-##Liquid conventions
-
-##rails conventions
+To Do:
+- liquid conventions
+- rails conventions
+- dev workflow
