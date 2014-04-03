@@ -1,7 +1,7 @@
 #WebStreak Git WorkFlow
 
 ##Git Repository
-Our git repo is hosted thru bitbucket, <https://bitbucket.org/webstreak> .
+Our git repo is hosted thru github, <https://github.com/webstreak> .
 
 ##Branches
 Standard branch structure is as follows:
@@ -17,7 +17,7 @@ Standard branch structure is as follows:
 ##Example Usage
 ###1. Clone repo to local machine
 
-    git clone https://username@bitbucket.org/webstreak/repo-name.git
+    git clone repo-path
 
 ###2. Checkout master to new feature branch
 Branch name should correspond to pivotal tracker ID and feature name/description.
