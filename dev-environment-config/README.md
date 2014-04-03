@@ -20,6 +20,7 @@ Locomotive Engine & Wagon Configuration
 
 7) Congrats. You're in a fresh VM.
 
+8) The shell scripts included with this repo will *attempt* to do the below steps automatically, sometimes they need some help.
 
 ##Install Wagon
 (*Reference:* <http://doc.locomotivecms.com/get-started/install-wagon#linux>)
