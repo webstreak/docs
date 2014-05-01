@@ -3,6 +3,7 @@
 ## Common
 - use spaces instead of tabs
 - the unit of indentation is two spaces
+- no trailing whitespaces
 
 ## Git
 - each commit should must have a comment
