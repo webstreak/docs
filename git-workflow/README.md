@@ -37,6 +37,19 @@ Commit messages should be short and describe what the commit actually does.
 
 ###5. Request merge to master once feature tested and verified by product owner.
 
+### extra.
+```
+git checkout -b branch_name
+git commit -am "My comment"
+git checkout master
+git pull origin master
+git checkout branch_name
+git rebase -i master
+git checkout master
+git merge branch_name
+git push origin master
+```
+
 -----------
 
 ###To Do:
