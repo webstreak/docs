@@ -22,7 +22,7 @@
 ## HTML/HAML/SLIM
 
 ## CSS/SASS
-- Classes and IDs should have common sense names in the following format
+###Classes and IDs should have common sense names in the following format
 
     .this-is-a-reasonable-class-name
     .ThisIsNotOK
