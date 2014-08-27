@@ -8,9 +8,7 @@ Standard branch structure is as follows:
 
 - master        -> tested, production ready, validated on integration branch. Push restricted to product owner.
 
-- integration   -> used for testing dev branch commits. Never merge with master.
-
-- featureBranch -> one branch per new feature, merge with integration for testing, then request merge to master.
+- featureBranch -> one branch per new feature, stored locally - only push to GH in special situations.
 
 -----------
 
