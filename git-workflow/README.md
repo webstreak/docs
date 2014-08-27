@@ -38,7 +38,8 @@ Commit messages should be short and describe what the commit actually does.
     git merge featurename
     git push
 
-###6. If there are changes you need to rebase them. [why?] http://infinitemonkeys.influitive.com/a-simple-explanation-for-git-rebase/
+###6. If there are changes you need to rebase them.
+- [why?] (http://infinitemonkeys.influitive.com/a-simple-explanation-for-git-rebase/)
     git checkout featurename
     git rebase master
 
