@@ -22,39 +22,37 @@ Standard branch structure is as follows:
 ###2. Checkout master to new feature branch
 Branch name should correspond to pivotal tracker ID and feature name/description.
 
-    git checkout -b "pivotalID-featurename"
+    git checkout -b "featurename"
 
 ###3. Make changes and then commit
-Commit messages should be short and describe what the commit actually does. 
+Commit messages should be short and describe what the commit actually does.
 
-    git add --all
+    git add .
     git commit -am "commit message"
 
-###4. Merge with integration branch for testing
+###4. Checkout master branch & pull changes
 
-    git checkout integration
-    git merge pivotalID-featurename
+    git checkout master
+    git pull
 
-###5. Request merge to master once feature tested and verified by product owner.
+###5. If no changes, you may merge and push
 
-### extra.
-```
-git checkout -b branch_name
-git commit -am "My comment"
-git checkout master
-git pull origin master
-git checkout branch_name
-git rebase -i master
-git checkout master
-git merge branch_name
-git push origin master
-```
+    git merge featurename
+    git push
 
------------
+###6. If there are changes you need to rebase them.
 
-###To Do:
+    git checkout featurename
+    git rebase master
 
-Setup/describe remote deploy definition:
+###7. If there are conflicts you need to resolve them and then continue the rebase
 
-    git remote add deploy http://deployurl.com
+    git rebase --continue
+
+###8. Now you may merge.
+
+    git checkout master
+    git merge featurebranch
+    git push
+
 
