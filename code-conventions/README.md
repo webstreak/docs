@@ -15,13 +15,26 @@
 - specify dependency versions in your Gemfile
   - [why?] (http://tenderlovemaking.com/2012/12/18/rails-4-and-your-gemfile.html)
 
-## Ruby
+## [Ruby] (https://github.com/styleguide/ruby)
 
-## Javascript
+## [Javascript] (https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 
 ## HTML/HAML/SLIM
+### Wrong
 
-## CSS/SASS
+    ```
+    div class='class-name'
+      img id='my-image'
+    ```
+
+### Right
+
+    ```
+    .class-name
+      img#my-img
+    ```
+
+## CSS/SASS/SCSS
 ###Classes and IDs should have common sense names in the following format
 
     .this-is-a-reasonable-class-name
