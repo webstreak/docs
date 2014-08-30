@@ -22,17 +22,17 @@
 ## HTML/HAML/SLIM
 ### Wrong
 
-    ```
-    div class='class-name'
-      img id='my-image'
-    ```
+```
+div class='class-name'
+  img id='my-image'
+```
 
 ### Right
 
-    ```
-    .class-name
-      img#my-img
-    ```
+```
+.class-name
+  img#my-img
+```
 
 ## CSS/SASS/SCSS
 ###Classes and IDs should have common sense names in the following format
