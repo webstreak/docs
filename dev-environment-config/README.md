@@ -22,7 +22,7 @@
 - user: user
 - pass: pass
 
-### Rails Admin ad http://demo2.lvh.me:3000/admin
+### Rails Admin at http://demo2.lvh.me:3000/admin
 
 - user: admin@webstreak.com
 - pass: password
