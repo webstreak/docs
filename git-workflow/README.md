@@ -10,6 +10,9 @@ Standard branch structure is as follows:
 
 - featureBranch -> one branch per new feature, stored locally - only push to GH in special situations.
 
+### Links
+http://reinh.com/blog/2009/03/02/a-git-workflow-for-agile-teams.html
+
 -----------
 
 ##Example Usage
