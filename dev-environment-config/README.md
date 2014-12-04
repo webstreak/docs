@@ -1,6 +1,6 @@
-#Digital Campaigns
+#[Digital Campaigns] (https://github.com/webstreak/digital-campaigns)
 
-###clone [repo] https://github.com/webstreak/digital-campaigns
+###clone repo
 
     rake db:setup
     foreman start
@@ -8,9 +8,9 @@
 - user: admin@webstreak.com
 - pass: password
 
-#Inventory
+#[Inventory] (https://github.com/webstreak/inventory)
 
-###clone [repo] https://github.com/webstreak/inventory
+###clone repo
 
     rake db:setup
     foreman start
