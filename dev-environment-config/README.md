@@ -1,6 +1,6 @@
 #Digital Campaigns
 
-###clone repo
+###clone [repo] https://github.com/webstreak/digital-campaigns
 
     rake db:setup
     foreman start
@@ -10,25 +10,27 @@
 
 #Inventory
 
-###clone repo
+###clone [repo] https://github.com/webstreak/inventory
 
     rake db:setup
     foreman start
 
 ###Dev site will be at http://demo2.lvh.me:3000
 
-### CMS Admin at http://demo2.lvh.me:3000/cms-admin
-
-- user: user
-- pass: pass
-
 ### Rails Admin at http://demo2.lvh.me:3000/admin
 
 - user: admin@webstreak.com
 - pass: password
 
+### Dealers Admin at http://demo2.lvh.me:3000/dealers_admin
 
+- user: admin@webstreak.com
+- pass: password
 
+### Site Contral at http://demo2.lvh.me:3000/site_control
+
+- user: admin@webstreak.com
+- pass: password
 
 
 

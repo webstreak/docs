@@ -20,6 +20,9 @@
 ## [Javascript] (https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 
 ## HTML/HAML/SLIM
+- take advantage of light-weight classes and ids
+- Example:
+
 ### Wrong
 
 ```
