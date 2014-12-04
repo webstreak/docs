@@ -27,7 +27,7 @@
 - user: admin@webstreak.com
 - pass: password
 
-### Site Contral at http://demo2.lvh.me:3000/site_control
+### Site Control at http://demo2.lvh.me:3000/site_control
 
 - user: admin@webstreak.com
 - pass: password

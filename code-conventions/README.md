@@ -21,16 +21,17 @@
 
 ## HTML/HAML/SLIM
 - take advantage of light-weight classes and ids
-- Example:
 
-### Wrong
+### Example:
+
+#### Wrong
 
 ```
 div class='class-name'
   img id='my-image'
 ```
 
-### Right
+#### Right
 
 ```
 .class-name
