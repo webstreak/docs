@@ -6,6 +6,8 @@ Our git repo is hosted thru github, <https://github.com/webstreak> .
 ##Branches
 Standard branch structure is as follows:
 
+- production    -> production branch.
+
 - master        -> tested, production ready, validated on integration branch. Push restricted to product owner.
 
 - featureBranch -> one branch per new feature, stored locally - only push to GH in special situations.
