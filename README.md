@@ -8,6 +8,7 @@
 
 #### Useful Links
   Online linters:
+  - [seo tools](http://seositecheckup.com/tools/sitemap-test)
   - [sitemap checker](http://www.xmlcheck.com)
   - [json lint](http://jsonlint.com)
   - [css lint](http://csslint.net)
