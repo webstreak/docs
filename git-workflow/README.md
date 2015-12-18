@@ -36,7 +36,7 @@ Commit messages should be short and describe what the commit actually does.
 ###4. Checkout master branch & pull changes
 
     git checkout master
-    git pull
+    git pull #if you have forked the repo, pull upstream master
 
 ###5. If no changes, you may merge and push
 
