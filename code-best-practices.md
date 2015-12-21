@@ -1,4 +1,4 @@
-### Uncle's Bob rules:
+### Uncle Bob's rules:
 1. All functions should be between less than 8 lines.
 - No function should have more than two levels of indent.
 - Names should be communicative and explicit.
