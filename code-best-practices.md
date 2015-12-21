@@ -1,8 +1,11 @@
 ### Uncle's Bob rules:
-- All functions should be between less than 8 lines.
+1. All functions should be between less than 8 lines.
 - No function should have more than two levels of indent.
 - Names should be communicative and explicit.
-- 3a. Variables in short scopes should have short names. 3b. Variables in long scopes should have long names. 3c. Functions in long scopes should have short names. 3d. Functions in short scopes should have long names.
+    - Variables in short scopes should have short names
+    - Variables in long scopes should have long names
+    - Functions in long scopes should have short names
+    - Functions in short scopes should have long names
 - The code should read like well written prose and have very few comments.
 - As you read the code you should not have to look up the definitions of the variables and functions being called. They should be obvious.
 - Function calls should have 3 or fewer arguments, with a preference for fewer.
