@@ -6,6 +6,7 @@
 - [Code Conventions] (../master/code-conventions/README.md)
 - [GA Event Tracking] (../master/ga-event-tracking/README.md)
 - [Code best practices] (../master/code-best-practices.md)
+- [Code review] (../master/code-review.md)
 
 #### How-to
 - [Check if client website uses all the load balancers] (../master/how-to/all_load_balancers.md)
