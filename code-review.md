@@ -8,7 +8,8 @@
 #### Rules of thumb
 
 1. Follow code conventions
-2. Keep pull request skinny.
+2. Do not review typo fixes or really simple commits
+3. Keep pull request skinny.
     If a pull request has lots of logic and it's not possible to split it up, then an author and a reviewer should do code review together.
 ```
 10 lines of code = 10 issues. 500 lines of code = “looks fine.” Code reviews.
