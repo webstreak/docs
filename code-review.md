@@ -1,5 +1,13 @@
 ### Code review
 
+#### Setup
+1. Fork a repository
+2. Create a new feature branch
+3. Implement a feature and commit
+4. Pull changes from upstream
+5. Rebase the feature branch
+6. Create a pull request via github interface
+
 #### Workflow
 1. Author create a pull request
 2. A member of the team(reviewer) reviews the pull request. The reviews might make comments about issues. The author should fix those issues and recreate or update his pull request
