@@ -1,5 +1,5 @@
 ### Uncle Bob's rules:
-1. All functions should be between less than 8 lines.
+1. All functions should be 8 or fewer lines.
 - No function should have more than two levels of indent.
 - Names should be communicative and explicit.
     - Variables in short scopes should have short names
