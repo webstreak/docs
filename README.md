@@ -10,6 +10,7 @@
 
 #### How-to
 - [Check if client website uses all the load balancers] (../master/how-to/all_load_balancers.md)
+- [Setup SSL via let's encrypt for one domain and one server] (../master/how-to/letsencrypt.md)
 
 #### Useful Links
 
