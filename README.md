@@ -20,6 +20,7 @@ Online linters:
 - [sitemap checker](http://www.xmlcheck.com)
 - [json lint](http://jsonlint.com)
 - [css lint](http://csslint.net)
+- [robots.txt parser](http://technicalseo.com/seo-tools/robots-txt)
 
 Validators:
   
