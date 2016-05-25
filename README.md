@@ -1,5 +1,8 @@
 #Reference Docs and Conventions
 
+#### Campaigns api
+[Campaign API wiki](https://github.com/webstreak/docs/wiki/campaigns_api)
+
 #### Contents
 - [Git Workflow] (../master/git-workflow/README.md)
 - [Dev Environment Setup] (../master/dev-environment-config/README.md)
