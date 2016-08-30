@@ -28,10 +28,10 @@ Branch name should correspond to pivotal tracker ID and feature name/description
     git checkout -b "featurename"
 
 ###3. Make changes and then commit
-Commit messages should be short and describe what the commit actually does.
+Commit messages should be short and describe what the commit actually does. Uppercase first word.
 
     git add .
-    git commit -am "commit message"
+    git commit -am "Fix bug in things controller"
 
 ###4. Checkout master branch & pull changes
 
