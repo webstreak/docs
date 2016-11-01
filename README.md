@@ -10,6 +10,7 @@
 - [GA Event Tracking] (../master/ga-event-tracking/README.md)
 - [Code best practices] (../master/code-best-practices.md)
 - [Code review] (../master/code-review.md)
+- [Rails local Environment config MacOSX] (../master/dev-setup.md)
 
 #### How-to
 - [Check if client website uses all the load balancers] (../master/how-to/all_load_balancers.md)
@@ -18,7 +19,7 @@
 #### Useful Links
 
 Online linters:
-  
+
 - [seo tools](http://seositecheckup.com/tools/sitemap-test)
 - [sitemap checker](http://www.xmlcheck.com)
 - [json lint](http://jsonlint.com)
@@ -26,11 +27,11 @@ Online linters:
 - [robots.txt parser](http://technicalseo.com/seo-tools/robots-txt)
 
 Validators:
-  
+
 - [ssl certificate validator](https://www.ssllabs.com/ssltest/index.html)
 
 IE Virtual Machines:
-  
+
 - [virtual box instances](https://github.com/xdissent/ievms)
 
 Other
