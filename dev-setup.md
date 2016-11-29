@@ -4,6 +4,17 @@
 
 I prefer [atom](https://atom.io/)
 
+If you choose atom make sure to install command line tools:
+![command-line-tools](https://cloud.githubusercontent.com/assets/194400/7987327/ba954dce-0ad4-11e5-897a-19ed0f37ff41.png)
+
+This will allow you to launch the editor from your terminal window:
+
+```shell
+  atom .                 #(opens folder)
+  atom file.js           #(opens file)
+  atom                   #(opens editor)
+```
+
 ### Open terminal
 
 most of what follows should be done in terminal, in spotlight type `terminal`
