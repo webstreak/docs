@@ -8,6 +8,7 @@
 - [Dev Environment Setup] (../master/dev-environment-config/README.md)
 - [Code Conventions] (../master/code-conventions/README.md)
 - [GA Event Tracking] (../master/ga-event-tracking/README.md)
+- [3rd Party Event Tracking] (../master/3p-ga-event-tracking/README.md)
 - [Code best practices] (../master/code-best-practices.md)
 - [Code review] (../master/code-review.md)
 - [Rails local Environment config MacOSX] (../master/dev-setup.md)
