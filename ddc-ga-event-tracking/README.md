@@ -1,4 +1,4 @@
-#Event tracking config for Third Party Sites + GTM
+#Event tracking config for DDC + GTM
 
 ### 1. Install GTM and configure data layer like normal
 
