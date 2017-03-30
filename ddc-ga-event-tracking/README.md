@@ -15,7 +15,7 @@
         return false;
       }
       if ($('.track-event').length) {
-        var node = $('.track-pageview');
+        var node = $('.track-event');
         ev.trackEvent(node);
       }
     },
