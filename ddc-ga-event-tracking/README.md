@@ -21,12 +21,39 @@
     },
 
     trackEvent: function(node){
+
+      var action = node.data('action');
+
+      if(node.data('type')==='lead'){
+        action = ev.getParamVal('formId');
+      }
+
+      if(node.data('type')==='vdp'){
+
+        if window.location.href.includes('new'){
+          action = 'VDP View New Inventory';
+        }else{
+          action = 'VDP View Used Inventory';
+        }
+
+      }
+
       dataLayer.push({
         'event': 'gaTriggerEvent',
         'gaEventCategory': node.data('category'),
-        'gaEventAction': node.data('action'),
+        'gaEventAction': action,
         'gaEventLabel': node.data('label')
       });
+    },
+
+    getParamVal: function(param){
+      url = window.location.href;
+      name = name.replace(/[\[\]]/g, "\\$&");
+      var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+          results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, " "));
     }
 
   };
@@ -45,7 +72,7 @@ Replace anything in `[]` with variable data. Example `[NEW OR USED]` --> `'NEW'`
 ### 3. Add to Thank You page
 
 ```html
-<input type='hidden' class='track-event' data-category='Lead Form Submissions' data-action='[FORM NAME]'/>
+<input type='hidden' class='track-event' data-type='lead' data-category='Lead Form Submissions'/>
 ```
 
 ### 4. Add to SRP
@@ -55,7 +82,7 @@ Replace anything in `[]` with variable data. Example `[NEW OR USED]` --> `'NEW'`
 
 ### 5. Add to VDP
 ```html
-<input type='hidden' class='track-event' data-category='VDP View' data-label='[NEW OR USED]'/>
+<input type='hidden' class='track-event' data-type='vdp' data-category='VDP View'/>
 ```
 
 ### 6. Verify in GA live event view
