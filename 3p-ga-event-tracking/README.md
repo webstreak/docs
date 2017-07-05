@@ -1,11 +1,11 @@
-# Event tracking config for DDC + GTM
+# Event tracking config for 3rd Party Websites + GTM
 
 ### 1. Install GTM and configure data layer like normal
 
 ### 2. Add the following script and set firing rules for all pages:
 
-```javascript
-
+```html
+<script>
 (function($){
 
   var ev = {
@@ -62,27 +62,25 @@
 
 })(jQuery);
 
-
+</script>
 ```
 
 ## Configuration
 
-Replace anything in `[]` with variable data. Example `[NEW OR USED]` --> `'NEW'` . These variable values are not strictly necessary, but useful to have. If there is not an easy way to set them, you may omit.
-
-### 3. Add to Thank You page
+### 1. Add to Thank You page
 
 ```html
 <input type='hidden' class='track-event' data-type='lead' data-category='Lead Form Submissions'/>
 ```
 
-### 4. Add to SRP
+### 2. Add to SRP
 ```html
 <input type='hidden' class='track-event' data-category='Search Results Page View'/>
 ```
 
-### 5. Add to VDP
+### 3. Add to VDP
 ```html
 <input type='hidden' class='track-event' data-type='vdp' data-category='VDP View'/>
 ```
 
-### 6. Verify in GA live event view
+### 4. Publish & Verify in GA live event view
