@@ -1,4 +1,4 @@
-##Setting up Rails Dev Environment in MacOSX
+## Setting up Rails Dev Environment in MacOSX
 
 ### Download editor of your choice
 

@@ -1,4 +1,4 @@
-#WebStreak Code Conventions
+# WebStreak Code Conventions
 
 ## Common
 - use spaces instead of tabs
@@ -39,7 +39,7 @@ div class='class-name'
 ```
 
 ## CSS/SASS/SCSS
-###Classes and IDs should have common sense names in the following format
+### Classes and IDs should have common sense names in the following format
 
     .this-is-a-reasonable-class-name
     .ThisIsNotOK
