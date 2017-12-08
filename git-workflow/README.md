@@ -43,7 +43,7 @@ Commit messages should be short and describe what the commit actually does. Uppe
     git merge featurename
     git push
 
-### 7. If there are changes you need to rebase them. [Why?] (http://infinitemonkeys.influitive.com/a-simple-explanation-for-git-rebase/)
+### 7. If there are changes you need to rebase them. [Why?] (https://www.derekgourlay.com/blog/git-when-to-merge-vs-when-to-rebase/)
 
     git checkout featurename
     git rebase master
@@ -95,7 +95,7 @@ Commit messages should be short and describe what the commit actually does. Uppe
     git merge featurename
     git push
 
-### 6. If there are changes you need to rebase them. [Why?] (http://infinitemonkeys.influitive.com/a-simple-explanation-for-git-rebase/)
+### 6. If there are changes you need to rebase them. [Why?] (https://www.derekgourlay.com/blog/git-when-to-merge-vs-when-to-rebase/)
 
     git checkout featurename
     git rebase master
