@@ -58,11 +58,7 @@ Commit messages should be short and describe what the commit actually does. Uppe
     git merge featurebranch
     git push
 
-### 10. Push remote branch
-
-    git push -u origin branch_name
-
-### 11. Open pull request
+### 10. Open pull request with main repo
 
 https://help.github.com/articles/creating-a-pull-request/
 
