@@ -12,6 +12,7 @@
 - [Code best practices](../master/code-best-practices.md)
 - [Code review](../master/code-review.md)
 - [Rails local Environment config MacOSX](../master/dev-setup.md)
+- [Analytics / Events/ Cookie Sync Diagrams](https://drive.google.com/drive/folders/1AG3JXcY5udfbtFZ5GRQHZc2ijs1P7ZDe)
 
 #### How-to
 - [Check if client website uses all the load balancers](../master/how-to/all_load_balancers.md)
