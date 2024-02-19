@@ -46,8 +46,8 @@
   - Use [kt-paperclip](https://github.com/kreeti/kt-paperclip) to replace paperclip
     - use notes here to use kt-paperclip for audio/video: https://github.com/ruby-av/paperclip-av-transcoder/issues/60
   - known minimum required gem versions:
-    gem 'smarter_csv', '~> 1.2.8'
-    gem 'bootsnap', '~> 1.17.0', require: false
-    gem 'delayed_job_active_record', '~> 4.1.8'
-    gem 'slack-notifier', '~> 2.4.0'
-    gem 'simple_form', '~> 5.1.0'
+    smarter_csv 1.2.8
+    bootsnap 1.17.0
+    delayed_job_active_record 4.1.8
+    slack-notifier 2.4.0
+    simple_form 5.1.0
