@@ -50,20 +50,25 @@
   - known gems that are deprecated and will not work with ruby 3
     - activerecord-delay_touching (no longer necessary anyway, see: https://github.com/rails/rails/pull/19324)
   - known minimum required gem versions:
-    smarter_csv 1.2.8
-    bootsnap 1.17.0
-    delayed_job_active_record 4.1.8
-    slack-notifier 2.4.0
-    simple_form 5.1.0
+    - smarter_csv 1.2.8
+    - bootsnap 1.17.0
+    - delayed_job_active_record 4.1.8
+    - slack-notifier 2.4.0
+    - simple_form 5.1.0
+    - aws-sdk-s3 1.86.2
+    - signet 0.19.0
+    - jsonb_accessor 1.3.0
+    - active_decorator 1.4.1
+    - will_paginate 4.0.0
 
 #### Ruby 3.1.4 Notes:
   - known minimum required gem versions:
-    devise 4.9.0
+    - devise 4.9.0
   - gems no longer bundled (must be manually added to Gemfile if needed)
-    net-ftp
-    net-imap
-    net-pop
-    net-smtp
-    matrix
-    prime
-    debug
+    - net-ftp
+    - net-imap
+    - net-pop
+    - net-smtp
+    - matrix
+    - prime
+    - debug
