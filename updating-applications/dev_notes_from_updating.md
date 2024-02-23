@@ -45,9 +45,25 @@
   - Add 'webrick' to Gemfile for development server (no longer included as default)
   - Use [kt-paperclip](https://github.com/kreeti/kt-paperclip) to replace paperclip
     - use notes here to use kt-paperclip for audio/video: https://github.com/ruby-av/paperclip-av-transcoder/issues/60
+    - use kt-paperclip-optimizer to replace paperclip-optimizer
+    - use kt-delayed_paperclip to replace delayed_paperclip
+  - known gems that are deprecated and will not work with ruby 3
+    - activerecord-delay_touching (no longer necessary anyway, see: https://github.com/rails/rails/pull/19324)
   - known minimum required gem versions:
     smarter_csv 1.2.8
     bootsnap 1.17.0
     delayed_job_active_record 4.1.8
     slack-notifier 2.4.0
     simple_form 5.1.0
+
+#### Ruby 3.1.4 Notes:
+  - known minimum required gem versions:
+    devise 4.9.0
+  - gems no longer bundled (must be manually added to Gemfile if needed)
+    net-ftp
+    net-imap
+    net-pop
+    net-smtp
+    matrix
+    prime
+    debug
