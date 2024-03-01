@@ -64,6 +64,7 @@
 #### Ruby 3.1.4 Notes:
   - known minimum required gem versions:
     - devise 4.9.0
+    - mini_racer 0.6.0
   - gems no longer bundled (must be manually added to Gemfile if needed)
     - net-ftp
     - net-imap
