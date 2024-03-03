@@ -23,7 +23,8 @@ You must update your Gemset for compatibility with the target Ruby version befor
 3. IMPORTANT: You will need to restart unicorn on rails applications when the ruby version changes, failure to do so can result in unicorn running stale code. We are currently using systemd to manage the unicorn process. Follow these steps to restart unicorn properly:
     - As a sudo user (ubuntu), SSH onto the server after updating ruby version and application code
     - update the unicorn.service unit by editing ```/etc/systemd/system/unicorn.service```. Find the line ```ExecStart=/usr/local/rvm/bin/rvm-shell 3.0.6 -c "cd current && bundle exec unicorn -c config/unicorn_production.rb -E production -D"``` and update the version number (right after rvm-shell).
+    - Reload the unit configs (so systemd sees changes in file) with ```sudo systemctl daemon-reload```
     - Stop the unicorn service ```sudo systemctl stop unicorn.service```
-    - Kill the currently running unicorn process ```sudo kill -QUIT PID```
+    - Kill the currently running unicorn process ```sudo kill -QUIT PID``` if systemd did not
     - Start the unicorn service ```sudo systemctl start unicorn.service```
     - Verify it is running at ```systemctl status unicorn.service```
