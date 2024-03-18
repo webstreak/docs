@@ -65,6 +65,8 @@
   - known minimum required gem versions:
     - devise 4.9.0
     - mini_racer 0.6.0
+    - kt-paperclip >= 7.2.0
+    - capistrano >= 3.14.1
   - gems no longer bundled (must be manually added to Gemfile if needed)
     - net-ftp
     - net-imap
