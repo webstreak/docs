@@ -24,16 +24,27 @@
 - Check decimal column summing for decimal columns with no precision selected (adworks)
 
 #### Rails 7.0 update (6.1.7.6 to 7.0.8)
-- acts-as-taggable-on gem version must be >= 9.0
-- Audited gem must be >= 5.0
-- Devise gem must be >= 4.8.0
-- Airbrake gem must be >= 13.0.3
+- known minimum required gem versions:
+  - acts-as-taggable-on 9.0
+  - audited 5.0
+  - devise 4.8.1
+  - airbrake 13.0.3
 - Disabling pooling in memcache (we use unicorn which is single-threaded), add pool: false to config.cache_store options
 - Add config.active_support.cache_format_version = 6.1 to application.rb and remove when app stable on 7 (cannot rollback)
 - button_to needs explicit method: :post (now defaults to :patch)
 - Add sprocket-rails gem to Gemfile if using sprockets (no longer included in rails 7)
 - .reorder().first deprecated. must use reorder().take
 - errors.add(:type, msg) replaces deprecated errors[:type] << msg
+
+#### Rails 7.1 update (7.0.8.1 to 7.1.3.2)
+- unicorn-rails incompatible (no replacement known, but is only really for development environment, just run unicorn directly if needed)
+- known minimum required gem versions:
+  - activerecord-import 1.5.0
+  - devise 4.9.3
+  - ransack 4.1.0
+  - simple_form 5.3.0
+  - slim 5.2.0
+  - database_cleaner 2.0.2
 
 ### Ruby version updates
 
@@ -75,3 +86,6 @@
     - matrix
     - prime
     - debug
+
+#### Ruby 3.2.3 Notes:
+  - kernel exists? method deprecated - use exist? instead (I.E. File.exist?, Dir.exist?)
