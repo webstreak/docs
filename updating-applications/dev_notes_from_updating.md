@@ -56,6 +56,7 @@
     config.secrets
   end
 ```
+- pin rack gem to < 3. unicorn is not currently compatible with newer rack versions (> 3)
 
 ### Ruby version updates
 
