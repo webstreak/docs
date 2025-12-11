@@ -46,6 +46,17 @@
   - slim 5.2.0
   - database_cleaner 2.0.2
 
+#### Rails 7.2 update (7.1.3.2 to 7.2.3)
+- `Rails.application.secrets` has been deprecated and removed from rails 7.2+ but we can add it back in with the following in `config/application.rb`
+```
+  config.secrets = config_for(:secrets) # loads from config/secrets.yml
+  config.secret_key_base = config.secrets[:secret_key_base]
+
+  def secrets
+    config.secrets
+  end
+```
+
 ### Ruby version updates
 
 #### Ruby 3.0.6 Notes:
