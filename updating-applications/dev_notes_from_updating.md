@@ -101,3 +101,6 @@
 
 #### Ruby 3.2.3 Notes:
   - kernel exists? method deprecated - use exist? instead (I.E. File.exist?, Dir.exist?)
+
+#### Ruby 3.3.11 Notes:
+  - must add 'ostruct' to gemfile and install, OpenStruct is no longer in standard library and officially deprecated
